@@ -1,10 +1,9 @@
 # Problem Set 3
 
-#this diamonds datset is part of ggplot2
+#the diamonds datset is part of ggplot2
 library(ggplot2)
 data(diamonds)
 summary(diamonds)
-
 
 #Question 1
 dim(diamonds)[1]
@@ -12,11 +11,11 @@ dim(diamonds)[2]
 #from summary(diamonds)
 ?diamonds
 
-#Question 2 -histogram
+#Q2
 qplot(x=diamonds$price, data=diamonds, binwidth=100)
 summary(diamonds$price)
 
-#Question 3
+#Q3
 qplot(x=diamonds$price, data=diamonds, binwidth=100)
 
 #Q4
@@ -87,22 +86,19 @@ for (x in possibleAnswers) {
   if (length(diamonds$carat[diamonds$carat == x]) > 2000) {print(x)}
 }
 
+#================================================================================================
 #Q15
+
 #open analysis question on dataset of student's choice from www.gapminder.org
 #downloaded 'age at first marriage' dataset (2nd in list) and converted it to CSV in OpenOffice Calc
 # to save time and avoid installing further packages
-list.files()
+
 marraiges <- read.csv("indicator age of marriage.csv")
-dim(marraiges)
-#first few entries in first column
-marraiges[1:5,1]
-names(marraiges)
-names(marraiges)[1] <- "Country"
+names(marraiges)[1] <- "Country"   #
 #remove leading "X" from all column names except the first("Country")
 names(marraiges)[-1] <- substr(names(marraiges)[-1], 2, nchar(names(marraiges)[-1]))
-View(marraiges)
 
-#boxplot of ages by country (& year) function
+#boxplot of first married ages by country function
 MyBoxPlot <- function(years='all', saveFileName="marriageCountries.png") {
   
 #   # years = all / how many of the recent years to include (116 max)  
@@ -145,6 +141,7 @@ MyBoxPlot()
 # MyBoxPlot(years = all, saveFileName = 'allYears.png')
 ## only plot boxplot if more than z observations for country
 ############NEED SOME MORE GRAPHS HERE #############
+#================================================================================================
 
 
 #Q16

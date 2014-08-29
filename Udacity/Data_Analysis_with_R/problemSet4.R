@@ -4,8 +4,7 @@ library(ggplot2)
 data(diamonds)
 summary(diamonds)
 
-
-#Q1
+#Question1
 ggplot(diamonds, aes(x=carat, y=price)) +
   geom_point(shape=1) +    # Use hollow circles
   geom_smooth(method=lm) 
@@ -102,8 +101,8 @@ ggplot(data=diamonds_mp_by_cut, aes(x=cut, y=mean_price)) +
 #same with cut
 
 #Q15
-#Continuation of EDA on a dataset of the student's choice from gapminder.org from problem set 3
+#Continuation (of EDA on a gapminder.org dataset of the student's choice) question 15, problem set 3
 
 
 
-#Q15
+
