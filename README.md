@@ -2,6 +2,7 @@ Code and answers for online courses I've taken since August 2014
 
 
 IN PROGRESS
+
 Design of Computer Programs - Udacity
  -Great Python course from Peter Norvig (Google), highly recommended
 
