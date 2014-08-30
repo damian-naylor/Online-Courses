@@ -17,7 +17,7 @@ Software Testing - Udacity
 ----------------------------------------------------------------------
 -Each course has a separate directory which contains all of the code
  and answers for all of the course questions and problem sets
--Optional/unmarked questions & problem sets are included but I leave
+ -Optional/unmarked questions & problem sets are included but I leave
  out some of the more trivial answers to lesson questions
 
 
