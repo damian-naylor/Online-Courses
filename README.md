@@ -1,6 +1,5 @@
 Code and answers for online courses I've taken since August 2014  
 <br>
-<br>
 IN PROGRESS  
     
 Design of Computer Programs - Udacity  
@@ -12,7 +11,6 @@ Data Analysis with R - Udacity
 
 Software Testing - Udacity  
  -##software ## tools
-  
 <br>  
 ----------------------------------------------------------------------
 -Each course has a separate directory which contains all of the code
